@@ -45,7 +45,7 @@ async function saveData(mypath, data) {
             path: mypath,
             message: "initial commit",
             content: btoa(data),
-            branch: "main",
+            branch: "master",
             committer: { name: "Dashpilot", email: "support@dashpilot.com" },
         }
         if (typeof curfile !== 'undefined') {
