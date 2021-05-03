@@ -1,1 +1,1 @@
-Some data
+undefined
